@@ -1,0 +1,72 @@
+.gallery{
+    width: 75vw;
+}
+
+.licenseBtn{
+    cursor: pointer;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    width: 42px;
+    height: 21px;
+    background: linear-gradient(to right, #17ACC2, #1DC7AC);
+    display: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.saveIconButtons{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    display: none;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+
+}
+.iconBtn{
+    cursor: pointer;
+    color: #161C34;
+    background-color: #E1E3E6;
+    border: none;
+    outline: none;
+    display: flex;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+.saveBtn{
+    color: #161C34;
+    cursor: pointer;
+    background-color: #E1E3E6;
+    border: none;
+    outline: none;
+    display: flex;
+    width: 62px;
+    height: 22px;
+    border-radius: 5px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+}
+.saveBtn > span{
+    font-weight: 500;
+}
+.not-selected:hover .licenseBtn{
+    display: block
+}
+.not-selected:hover .saveIconButtons{
+    display: flex
+}
